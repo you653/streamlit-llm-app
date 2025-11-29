@@ -2,7 +2,9 @@ import streamlit as st
 from langchain_openai import ChatOpenAI
 from langchain.schema import SystemMessage,HumanMessage,AIMessage
 from dotenv import load_dotenv
+import os
 
+os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 load_dotenv()
 
 # 専門家の種類と対応するシステムメッセージを定義
