@@ -3,7 +3,7 @@ aiohttp==3.13.2
 aiosignal==1.4.0
 altair==5.5.0
 annotated-types==0.7.0
-anyio==4.11.0
+anyio==4.12.0
 attrs==25.4.0
 blinker==1.9.0
 cachetools==5.5.2
@@ -32,10 +32,6 @@ langchain-community==0.3.0
 langchain-core==0.3.63
 langchain-openai==0.2.2
 langchain-text-splitters==0.3.8
-langgraph==1.0.3
-langgraph-checkpoint==3.0.1
-langgraph-prebuilt==1.0.5
-langgraph-sdk==0.2.10
 langsmith==0.1.147
 markdown-it-py==4.0.0
 MarkupSafe==3.0.3
@@ -47,14 +43,13 @@ narwhals==2.12.0
 numpy==1.26.4
 openai==1.47.0
 orjson==3.11.4
-ormsgpack==1.12.0
 packaging==24.2
 pandas==2.3.3
 pillow==11.3.0
 propcache==0.4.1
 protobuf==5.29.5
 pyarrow==22.0.0
-pydantic==2.12.4
+pydantic==2.12.5
 pydantic-settings==2.12.0
 pydantic_core==2.41.5
 pydeck==0.9.1
@@ -85,6 +80,4 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 watchdog==6.0.0
-xxhash==3.6.0
 yarl==1.22.0
-zstandard==0.25.0
