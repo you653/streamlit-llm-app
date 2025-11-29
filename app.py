@@ -6,8 +6,8 @@ import os
 from openai import OpenAI
 
 load_dotenv()
-#api_key = st.secrets["OPENAI_API_KEY"]
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])   
+OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
+client = OpenAI(api_key=OPENAI_API_KEY)
 
 # 専門家の種類と対応するシステムメッセージを定義
 EXPERTS = {
